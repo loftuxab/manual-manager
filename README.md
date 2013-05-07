@@ -1,0 +1,4 @@
+manual-manager
+==============
+
+Manual Manager
