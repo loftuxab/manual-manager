@@ -1,0 +1,8 @@
+<webscript>
+			<shortname>Manual Content</shortname>
+			<description>Manual Manager: Topics to be sorted</description>
+			<url>/loftux/manual/sort</url>
+			<format default="json"></format>
+			<authentication>user</authentication>
+			<transaction allow="readonly">required</transaction>
+</webscript>

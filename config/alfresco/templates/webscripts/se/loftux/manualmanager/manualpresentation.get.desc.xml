@@ -1,0 +1,8 @@
+<webscript>
+			<shortname>Manual Presentations</shortname>
+			<description>Manual Manager: Reveal presentation mode</description>
+			<url>/loftux/manual/presentation</url>
+			<format default="json"></format>
+			<authentication>user</authentication>
+			<transaction allow="readonly">required</transaction>
+</webscript>

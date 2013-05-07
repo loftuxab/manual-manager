@@ -1,0 +1,17 @@
+/* Overrides for printing */
+.wmd-preview hr {
+	background-color: #9E9E9E !important;
+	border-right: medium none !important;
+	border-top: 1px solid #9E9E9E !important;
+	border-left: medium none !important;
+	border-bottom: medium none !important;
+}
+
+.wmd-preview sup {
+	font-size: 8px;
+}
+
+/* Insert page breaks for better printing */
+hr+p+hr+h1 {
+	page-break-before: always;
+}

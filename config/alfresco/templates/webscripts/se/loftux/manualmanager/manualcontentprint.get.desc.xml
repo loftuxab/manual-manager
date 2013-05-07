@@ -1,0 +1,8 @@
+<webscript>
+			<shortname>Manual Content Print</shortname>
+			<description>Manual Manager: Content print</description>
+			<url>/loftux/manual/print</url>
+			<format default="json"></format>
+			<authentication>user</authentication>
+			<transaction allow="readonly">required</transaction>
+</webscript>

@@ -1,0 +1,8 @@
+<webscript>
+			<shortname>Manual Content</shortname>
+			<description>Manual Manager: images</description>
+			<url>/loftux/manual/images</url>
+			<format default="json"></format>
+			<authentication>user</authentication>
+			<transaction allow="readonly">required</transaction>
+</webscript>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+
+   <bean id="manualManagerResourceBundle" class="org.springframework.extensions.surf.util.ResourceBundleBootstrapComponent">
+      <property name="resourceBundles">
+         <list>
+            <value>alfresco.messages.manual</value>
+         </list>
+      </property>
+   </bean>
+
+   <!-- Provide Manual Manager config -->
+   <bean id="manualManagerClientConfig" class="org.springframework.extensions.config.ConfigBootstrap" init-method="register">
+      <property name="configService" ref="web.config" />
+      <property name="configs">
+         <list>
+            <value>classpath:alfresco/web-extension/manual-manager-config.xml</value>
+            <value>classpath:alfresco/web-extension/manual-manager-custom-config.xml</value>
+         </list>
+      </property>
+   </bean>
+
+</beans>

@@ -1,0 +1,5 @@
+<webscript>
+  <shortname>Manual Content Print</shortname>
+  <description>Manual Manager: Content PRint</description>
+  <url>/components/manual/contentprint</url>
+</webscript>

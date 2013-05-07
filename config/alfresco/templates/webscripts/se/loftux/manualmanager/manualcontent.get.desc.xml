@@ -1,0 +1,8 @@
+<webscript>
+			<shortname>Manual Content</shortname>
+			<description>Manual Manager: Content</description>
+			<url>/loftux/manual/site/{site}/{container}</url>
+			<format default="json"></format>
+			<authentication>user</authentication>
+			<transaction>required</transaction>
+</webscript>

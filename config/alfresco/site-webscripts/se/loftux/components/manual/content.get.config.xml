@@ -1,0 +1,17 @@
+<toolbar>
+   <actionSet>
+      <action type="action-link" id="onActionEdit" permission="edit" label="menu.edit" />
+      <action type="action-link" id="onActionEditTemplate" permission="editTemplate" label="menu.edit.template" />
+      <action type="action-link" id="onNewTopic" permission="create" label="menu.create" />
+      <action type="action-link" id="onEditTopic" permission="edit" label="menu.edittopic" />
+      <action type="action-link" id="onFileUpload" permission="create" label="menu.fileupload" />
+      <action type="action-link" id="onActionCopyTo" permission="create" label="menu.copy" />
+      <action type="action-link" id="onActionMoveTo" permission="create" label="menu.move" />
+      <action type="action-link" id="onActionSort" permission="edit" label="menu.sort" />
+      <action type="action-link" id="onActionDelete" permission="delete" label="menu.delete" />
+      <action type="action-link" id="onActionVersions" permission="edit" label="menu.versions" />
+      <action type="action-link" id="onActionPermissions" permission="permission" label="menu.permissions" />
+      <action type="action-link" id="onActionPrint" permission="read" label="menu.print" />
+      <action type="action-link" id="onActionPresentation" permission="read" label="menu.presentation" />
+   </actionSet>
+</toolbar>

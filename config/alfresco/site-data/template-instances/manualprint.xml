@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template-instance>
+   <template-type>se/loftux/manualprint</template-type>
+   <properties>
+      <pageFamily>manual</pageFamily>
+      <container>manual</container>
+   </properties>
+   <components>
+ 
+       <component>
+         <region-id>contentprint</region-id>
+         <url>/components/manual/contentprint</url>
+         <properties></properties>
+      </component>
+      
+   </components>
+</template-instance>

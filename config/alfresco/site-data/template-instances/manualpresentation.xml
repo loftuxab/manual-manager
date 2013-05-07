@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template-instance>
+   <template-type>se/loftux/manualpresentation</template-type>
+   <properties>
+      <pageFamily>manual</pageFamily>
+      <container>manual</container>
+   </properties>
+   <components>
+ 
+       <component>
+         <region-id>reveal</region-id>
+         <url>/components/manual/presentation</url>
+         <properties></properties>
+      </component>
+      
+   </components>
+</template-instance>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<page>
+   <title>Presentation</title>
+   <description>Reveal.js presention mode</description>
+   <template-instance>manualpresentation</template-instance>
+   <authentication>user</authentication>
+</page>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<page>
+   <title>Manual</title>
+   <title-id>page.manual.title</title-id>
+   <description>Manual Manager</description>
+   <description-id>page.manual.description</description-id>
+   <template-instance>manual</template-instance>
+   <authentication>user</authentication>
+</page>

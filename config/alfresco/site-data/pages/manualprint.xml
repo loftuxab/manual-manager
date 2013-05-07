@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<page>
+   <title>Manual Print</title>
+   <title-id>page.manualprint.title</title-id>
+   <description>Manual Manager Print</description>
+   <description-id>page.manualprint.description</description-id>
+   <template-instance>manualprint</template-instance>
+   <authentication>user</authentication>
+</page>

@@ -1,0 +1,356 @@
+.content-data {
+	clear: both;
+	visibility: hidden;
+}
+
+.content-path {
+	float: left;
+	font-family: Helvetica, Trebuchet, sans-serif;
+	font-size: 123.1%;
+	font-weight: normal;
+	padding: 4px 10px;
+}
+
+/* Drag and Drop */
+
+.dndHighlight
+{
+   outline: 2px solid #4F94C9;
+   outline-offset: -2px;
+}
+
+.datalist-toolbar {
+	margin: 0 -10px;
+	/*Initially hidden */
+	visibility: hidden;
+}
+
+.datalist-toolbar .header-bar {
+	min-height: 2em;
+	padding: 4px 1em;
+}
+
+.datalist-toolbar .left,.datalist-toolbar .left div {
+	float: left;
+}
+
+.datalist-toolbar .right {
+	float: right;
+}
+
+/* Selected Items Menu */
+.toolbar .selected-items {
+	position: absolute;
+	right: 0px;
+}
+
+.toolbar .selected-items li {
+	width: auto;
+}
+
+.toolbar .selected-items li.yuimenuitem-disabled {
+	display: none;
+}
+
+.toolbar .selected-items .yuimenuitemlabel span {
+	background-position: 2px 50%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	margin-left: -4px;
+	min-height: 16px;
+	padding: 2px 0px 1px 24px;
+}
+
+.toolbar .selected-items hr {
+	padding: 0px;
+}
+
+.toolbar .onActionEdit {
+	background-image: url(../../../components/images/edit-wiki-16.png);
+}
+
+.toolbar .onActionEditTemplate {
+	background-image: url(../../../components/images/new-wiki-page-16.png);
+}
+
+.toolbar .onNewTopic {
+	background-image: url(../../../components/documentlibrary/images/create-content-16.png);
+}
+
+.toolbar .onEditTopic {
+	background-image: url(../../../components/images/edit-link-16.png);
+}
+
+.toolbar .onFileUpload {
+	background-image: url(../../../components/documentlibrary/images/upload-16.png);
+}
+
+.toolbar .onActionCopyTo {
+	background-image: url(../../../components/documentlibrary/actions/folder-copy-to-16.png);
+}
+
+.toolbar .onActionMoveTo {
+	background-image: url(../../../components/documentlibrary/actions/folder-move-to-16.png);
+}
+
+.toolbar .onActionSort {
+	background-image: url(../../../components/documentlibrary/images/sort-ascending-16.png);
+}
+
+.toolbar .onActionDelete {
+	background-image: url(../../../components/documentlibrary/actions/document-delete-16.png);
+}
+
+.toolbar .onActionVersions {
+	background-image: url(../../../components/images/revert-16.png);
+}
+
+.toolbar .onActionPermissions {
+	background-image:
+		url(../../../components/documentlibrary/actions/document-manage-permissions-16.png);
+}
+
+.toolbar .onActionPrint {
+	background-image: url(../../../components/images/printer-16.png);
+}
+
+.toolbar .onActionPresentation {
+   background-image: url(images/slideshow_icon.png);
+}
+
+/* Buttons */
+.version-buttons {
+	background-color: #eee;
+	background: -o-linear-gradient(bottom, #eee 0%, #fff 100%);
+	background: -moz-linear-gradient(center bottom, #eee 0%, #fff 100%);
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.0, #ddd),
+		color-stop(1.0, #fff) );
+	border-bottom: 1px solid lightgray;
+	padding: 3px 3px 3px 0px;
+	height: 2.2em;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 0.9em;
+}
+
+.version-buttons>a>img {
+	margin: 4px;
+	height: 16px;
+}
+
+.version-buttons button {
+	line-height: 1.5em !important;
+	border-color: #B7B7B7 !important;
+	border-width: 1px !important;
+	background-color: transparent !important;
+}
+
+.version-buttons>button:hover {
+	background-image: url(../../../../../themes/default/images/sprite.png)
+		!important;
+}
+
+.version-buttons>select {
+	line-height: 1.5em !important;
+	border-color: #B7B7B7 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+}
+
+.version-buttons>button>img {
+	width: 16px !important;
+	height: 16px !important;
+}
+
+.version-buttons>button[disabled]>img {
+	opacity: 0.5 !important;
+}
+
+/* Version properties */
+.version-properties {
+	margin: 5px 0px 5px 0px;
+	border-bottom: 1px solid;
+	padding-bottom: 5px;
+	border-bottom-color: lightgray;
+}
+
+/* Search box */
+div.manual.search-box {
+	border: 1px solid #a0a0a0;
+	float: right;
+	height: 20px;
+	position: relative;
+	top: -2px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+	margin-right: 75px;
+	margin-top: 4px;
+}
+
+div.manual.search-box input[type="text"] {
+	border-color: transparent;
+	background-color: transparent;
+	background: url(../../../components/images/header/search-menu.png) no-repeat 5px 0px;
+	display: inline-block;
+	margin-right: 6px;
+	padding: 0 0 0 30px;
+	position: relative;
+	top: -2px;
+	margin-top: 3px;
+}
+
+div.manual.search-box input.faded {
+	opacity: 0.5;
+}
+
+.manual-search table {
+	border-bottom-width: 1px !important;
+	border-bottom-style: solid !important;
+	border-bottom-color: lightgray !important;
+}
+
+/* Manual links related subtopics */
+a.manualLink {
+	line-height: 1.5em;
+	border-width: 1px 1px;
+	border-style: solid;
+	border-color: #B7B7B7;
+	background-color: lightyellow;
+	padding: 5px 5px;
+	margin: 0px 5px 5px 0px;
+	font-size: 93%;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+a.manualLink:hover {
+	color: #145675;
+	-moz-transition: color 0.25s ease-in-out;
+	-webkit-transition: color 0.25s ease-in-out;
+	transition: color 0.25s ease-in-out;
+}
+
+/* Set for topic links */
+.set-bordered-panelLink {
+	margin-bottom: 0.8em;
+	display: inline-block;
+}
+
+.set-bordered-panelLink-heading {
+	background-color: #eeeeee;
+	color: #515d6b;
+	padding: 0.3em 0.6em;
+}
+
+.set-bordered-panelLink-body {
+	padding: 0.5em 0.1em 0.5em 0.5em;
+	border: 1px solid #eeeeee;
+}
+
+/* Image Selector in edit dialog */
+.wmd-image-selector {
+	max-height: 24px;
+	padding: 2px 0px 2px 0px;
+}
+
+.wmd-image-box {
+	display: inline-block;
+	margin: 5px;
+}
+
+.wmd-image-box-image {
+	display: block;
+}
+
+.wmd-image-box-actions {
+	display: inline;
+}
+
+#image-tab-view-close.yui-push-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+/* Forms */
+.form-container .form-fields {
+	border-bottom: medium none;
+	padding: 1em 1em 0em 1em;
+}
+
+/* The sort dialog styling */
+/* Left text */
+.sorttextlabel {
+	text-align: center;
+	padding: 0.5em 0;
+}
+
+ul.sorttopicList {
+	width: 30em;
+	/* height: 15.5em; */
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #BFBFBF;
+	list-style: none;
+	padding-left: 2px;
+}
+
+/* Style the searchers */
+.sortTopic {
+	width: 30em;
+	float: left;
+	height: 2.5em;
+	text-align: left;
+	border-style: none;
+	border-width: 0;
+	background-color: #E7E7E7;
+}
+
+/* search items */
+.sorttopicitem {
+	width: 29.3em;
+	float: left;
+	height: 2.5em;
+	text-align: left;
+	margin: 0.2em;
+	background-color: #F2F8F0;
+	border: 1px dashed #C3C3C3;
+}
+
+/* Show dashlets a bit darker when they are focused. */
+.sorttopicitem.dnd-focused {
+	background-color: #E7E7E7;
+}
+
+/*
+ * Since the a is the one that gets focus we use a transparent gif inside it
+ * to make sure IE displays a nice dottec line around the "link".
+ * Change the cursor to a move cursor on mouse over.
+ */
+.sorttopicitem a img {
+	width: 100%;
+	height: 100%;
+}
+
+/* Vertically center the text. */
+.sorttopicitem div {
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	filter: alpha(opacity =         1);
+	height: 3em;
+	position: relative;
+	top: -4.5em;
+	width: 30em;
+	padding: 0;
+}
+
+.sorttopicitem span {
+	position: relative;
+	top: -2.2em;
+	left: 1em;
+	opacity: 1;
+	filter: alpha(opacity =         100);
+}

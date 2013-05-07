@@ -1,0 +1,5 @@
+<webscript>
+  <shortname>manual-manager-sort</shortname>
+  <description>Sort dialog for Manual Manager</description>
+  <url>/modules/manual/sort</url>
+</webscript>

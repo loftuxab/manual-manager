@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<template-instance>
+   <template-type>se/loftux/manual</template-type>
+   <properties>
+      <pageFamily>manual</pageFamily>
+      <container>manual</container>
+   </properties>
+   <components>
+
+      <!-- Title -->
+      <component>
+         <region-id>title</region-id>
+         <url>/components/title/collaboration-title</url>
+      </component>
+
+      <!-- Navigation -->
+      <component>
+         <region-id>navigation</region-id>
+         <url>/components/navigation/collaboration-navigation</url>
+      </component>
+     
+      <!-- Tree -->
+      <component>
+         <region-id>tree</region-id>
+         <url>/components/manual/tree</url>
+         <properties></properties>
+      </component>
+ 
+       <component>
+         <region-id>content</region-id>
+         <url>/components/manual/content</url>
+         <properties></properties>
+      </component>
+           
+      <!-- Uploaders -->
+      <component>
+         <region-id>html-upload</region-id>
+         <url>/components/upload/html-upload</url>
+      </component>
+      <component>
+         <region-id>flash-upload</region-id>
+         <url>/components/upload/flash-upload</url>
+      </component>
+      <component>
+         <region-id>file-upload</region-id>
+         <url>/components/upload/file-upload</url>
+      </component>
+      <component>
+         <region-id>dnd-upload</region-id>
+         <url>/components/upload/dnd-upload</url>
+      </component>
+      
+   </components>
+</template-instance>

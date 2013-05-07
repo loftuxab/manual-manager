@@ -1,0 +1,403 @@
+<images>
+	<actions>
+		<image path="components/images/account_disabled.gif" name="Icon" />
+		<image path="components/images/account_enabled.gif" name="Icon" />
+		<image path="components/images/add-group-16.png" name="Icon" />
+		<image path="components/images/add-icon-16.png" name="Icon" />
+		<image path="components/images/add-row-16.png" name="Icon" />
+		<image path="components/images/add-user-16.png" name="Icon" />
+		<image path="components/images/ajax_anim.gif" name="Icon" />
+		<image path="components/images/aspect-16.png" name="Icon" />
+		<image path="components/images/back-arrow.png" name="Icon" />
+		<image path="components/images/blog-16.png" name="Icon" />
+		<image path="components/images/blogpost-32.png" name="Icon" />
+		<image path="components/images/calendar-20.png" name="Icon" />
+		<image path="components/images/collapsed.png" name="Icon" />
+		<image path="components/images/comment-16.png" name="Icon" />
+		<image path="components/images/complete-16.png" name="Icon" />
+		<image path="components/images/configure-blog-16.png" name="Icon" />
+		<image path="components/images/create-discussion-16.png" name="Icon" />
+		<image path="components/images/create-rule-16.png" name="Icon" />
+		<image path="components/images/delete-16.png" name="Icon" />
+		<image path="components/images/delete-blog-16.png" name="Icon" />
+		<image path="components/images/delete-disabled-16.png" name="Icon" />
+		<image path="components/images/delete-discussion-16.png" name="Icon" />
+		<image path="components/images/delete-link-16.png" name="Icon" />
+		<image path="components/images/delete-row-16.png" name="Icon" />
+		<image path="components/images/delete-tag-16.png" name="Icon" />
+		<image path="components/images/delete-tag-off.png" name="Icon" />
+		<image path="components/images/delete-tag-on.png" name="Icon" />
+		<image path="components/images/delete-wiki-16.png" name="Icon" />
+		<image path="components/images/delete-wiki-unavailable-16.png" name="Icon" />
+		<image path="components/images/details-16.png" name="Icon" />
+		<image path="components/images/discussion-16.png" name="Icon" />
+		<image path="components/images/duplicate-row-16.png" name="Icon" />
+		<image path="components/images/edit-blog-16.png" name="Icon" />
+		<image path="components/images/edit-disabled-16.png" name="Icon" />
+		<image path="components/images/edit-discussion-16.png" name="Icon" />
+		<image path="components/images/edit-inline-16.png" name="Icon" />
+		<image path="components/images/edit-link-16.png" name="Icon" />
+		<image path="components/images/edit-metadata-16.png" name="Icon" />
+		<image path="components/images/edit-tag-16.png" name="Icon" />
+		<image path="components/images/edit-wiki-16.png" name="Icon" />
+		<image path="components/images/enabled-indicator-off-16.png" name="Icon" />
+		<image path="components/images/enabled-indicator-on-16.png" name="Icon" />
+		<image path="components/images/enabled-off-16.png" name="Icon" />
+		<image path="components/images/enabled-on-16.png" name="Icon" />
+		<image path="components/images/error-16.png" name="Icon" />
+		<image path="components/images/expanded.png" name="Icon" />
+		<image path="components/images/feed-icon-16-blue.png" name="Icon" />
+		<image path="components/images/feed-icon-16.png" name="Icon" />
+		<image path="components/images/feed-icon-disabled-16.png" name="Icon" />
+		<image path="components/images/folder-up-16.png" name="Icon" />
+		<image path="components/images/folder-up-disabled-16.png" name="Icon" />
+		<image path="components/images/forward-arrow-16.png" name="Icon" />
+		<image path="components/images/imap-fav-deselected-16.png" name="Icon" />
+		<image path="components/images/imap-fav-selected-16.png" name="Icon" />
+		<image path="components/images/indicator-off-16.png" name="Icon" />
+		<image path="components/images/indicator-on-16.png" name="Icon" />
+		<image path="components/images/info-16.png" name="Icon" />
+		<image path="components/images/inherited-off-16.png" name="Icon" />
+		<image path="components/images/inherited-on-16.png" name="Icon" />
+		<image path="components/images/job-cancelled-16.png" name="Icon" />
+		<image path="components/images/job-failed-16.png" name="Icon" />
+		<image path="components/images/job-no-status-16.png" name="Icon" />
+		<image path="components/images/job-running-16.png" name="Icon" />
+		<image path="components/images/job-success-16.png" name="Icon" />
+		<image path="components/images/like-16.png" name="Icon" />
+		<image path="components/images/liked-16.png" name="Icon" />
+		<image path="components/images/link-16.png" name="Icon" />
+		<image path="components/images/link-details-16.png" name="Icon" />
+		<image path="components/images/new-blog-16.png" name="Icon" />
+		<image path="components/images/new-comment-16.png" name="Icon" />
+		<image path="components/images/new-group-16.png" name="Icon" />
+		<image path="components/images/new-link-16.png" name="Icon" />
+		<image path="components/images/new-list-16.png" name="Icon" />
+		<image path="components/images/new-wiki-page-16.png" name="Icon" />
+		<image path="components/images/new-wiki-page-unavailable-16.png" name="Icon" />
+		<image path="components/images/new-window-16.png" name="Icon" />
+		<image path="components/images/unpublish-external-16.png" name="Icon" />
+		<image path="components/images/update-external-16.png" name="Icon" />
+		<image path="components/images/user-16.png" name="Icon" />
+		<image path="components/images/green-arrow-small.png" name="Icon" />
+		<image path="components/images/green-step-circle.png" name="Icon" />
+		<image path="components/images/view-discussion-16.png" name="Icon" />
+		<image path="components/images/warning-16.png" name="Icon" />
+		<image path="components/images/wiki-16.png" name="Icon" />
+		<image path="components/images/wiki-details-16.png" name="Icon" />
+		<image path="components/images/wikipage-32.png" name="Icon" />
+
+		<image path="components/images/header/advanced-search.png" name="Icon" />
+		<image path="components/images/header/application.png" name="Icon" />
+		<image path="components/images/header/change-password.png" name="Icon" />
+		<image path="components/images/header/groups.png" name="Icon" />
+		<image path="components/images/header/help.png" name="Icon" />
+		<image path="components/images/header/logout.png" name="Icon" />
+		<image path="components/images/header/more.png" name="Icon" />
+		<image path="components/images/header/my-content.png" name="Icon" />
+		<image path="components/images/header/my-dashboard.png" name="Icon" />
+		<image path="components/images/header/my-profile.png" name="Icon" />
+		<image path="components/images/header/my-sites.png" name="Icon" />
+		<image path="components/images/header/my-tasks.png" name="Icon" />
+		<image path="components/images/header/my-workflows.png" name="Icon" />
+		<image path="components/images/header/people.png" name="Icon" />
+		<image path="components/images/header/replication-jobs.png" name="Icon" />
+		<image path="components/images/header/repository.png" name="Icon" />
+		<image path="components/images/header/saved-searches.png" name="Icon" />
+		<image path="components/images/header/search-menu.png" name="Icon" />
+		<image path="components/images/header/sites.png" name="Icon" />
+		<image path="components/images/header/tag-management.png" name="Icon" />
+		<image path="components/images/header/trashcan.png" name="Icon" />
+		<image path="components/images/header/users.png" name="Icon" />
+		<image path="components/images/plus-16.png" name="Icon" />
+		<image path="components/images/pooled-task-16.png" name="Icon" />
+		<image path="components/images/printer-16.png" name="Icon" />
+		<image path="components/images/priority-high-16.png" name="Icon" />
+		<image path="components/images/priority-high-20.png" name="Icon" />
+		<image path="components/images/priority-low-16.png" name="Icon" />
+		<image path="components/images/priority-low-20.png" name="Icon" />
+		<image path="components/images/priority-medium-16.png" name="Icon" />
+		<image path="components/images/priority-medium-20.png" name="Icon" />
+		<image path="components/images/priority-none-20.png" name="Icon" />
+		<image path="components/images/publish-external-16.png" name="Icon" />
+		<image path="components/images/remove-16.png" name="Icon" />
+		<image path="components/images/remove-icon-16.png" name="Icon" />
+		<image path="components/images/rename-wiki-unavailable-16.png" name="Icon" />
+		<image path="components/images/reply-to-discussion-16.png" name="Icon" />
+		<image path="components/images/revert-16.png" name="Icon" />
+		<image path="components/images/revert-unavailable-16.png" name="Icon" />
+		<image path="components/images/rule-16.png" name="Icon" />
+		<image path="components/images/search-16-gray.png" name="Icon" />
+		<image path="components/images/search-16.png" name="Icon" />
+		<image path="components/images/select-invert-16.png" name="Icon" />
+		<image path="components/images/select-rows-all-16.png" name="Icon" />
+		<image path="components/images/select-rows-none-16.png" name="Icon" />
+		<image path="components/images/select_arrow.gif" name="Icon" />
+		<image path="components/images/site-16.png" name="Icon" />
+		<image path="components/images/site-24.png" name="Icon" />
+		<image path="components/images/star-deselected_16x16.png" name="Icon" />
+		<image path="components/images/star-selected_16x16.png" name="Icon" />
+		<image path="components/images/status-16.png" name="Icon" />
+		<image path="components/images/tag-16.png" name="Icon" />
+		<image path="components/images/edit-16.png" name="Icon" />
+		<image path="components/images/edit-48.png" name="Icon" />
+		<image path="components/images/group-16.png" name="Icon" />
+		<image path="components/images/group-64.png" name="Icon" />
+		<image path="components/images/drop-arrow-left-large.png" name="Icon" />
+		<image path="components/images/drop-arrow-left-small.png" name="Icon" />
+		<image path="components/images/help-activities-bw-32.png" name="Icon" />
+		<image path="components/images/help-activities-bw-64.png" name="Icon" />
+		<image path="components/images/help-avatar-64.png" name="Icon" />
+		<image path="components/images/help-avatar-bw-32.png" name="Icon" />
+		<image path="components/images/help-avatar-bw-64.png" name="Icon" />
+		<image path="components/images/help-calendar-bw-32.png" name="Icon" />
+		<image path="components/images/help-dashboard-64.png" name="Icon" />
+		<image path="components/images/help-dashboard-bw-64.png" name="Icon" />
+		<image path="components/images/help-docs-32.png" name="Icon" />
+		<image path="components/images/help-docs-bw-32.png" name="Icon" />
+		<image path="components/images/help-people-64.png" name="Icon" />
+		<image path="components/images/help-people-bw-32.png" name="Icon" />
+		<image path="components/images/help-people-bw-64.png" name="Icon" />
+		<image path="components/images/help-share-64.png" name="Icon" />
+		<image path="components/images/help-share-bw-64.png" name="Icon" />
+		<image path="components/images/help-site-64.png" name="Icon" />
+		<image path="components/images/help-site-bw-32.png" name="Icon" />
+		<image path="components/images/help-site-bw-64.png" name="Icon" />
+		<image path="components/images/help-task-bw-32.png" name="Icon" />
+		<image path="components/images/help-task-bw-64.png" name="Icon" />
+		<image path="components/images/help-tutorial-64.png" name="Icon" />
+		<image path="components/images/help-tutorial-bw-64.png" name="Icon" />
+		<image path="components/images/help-upload-bw-32.png" name="Icon" />
+		<image path="components/images/help-upload-bw-64.png" name="Icon" />
+
+		<image path="components/images/list-16.png" name="Icon" />
+		<image path="components/images/list-32.png" name="Icon" />
+		<image path="components/images/navigation-bg.png" name="Icon" />
+		<image path="components/images/network-dashlet-button.png" name="Icon" />
+
+		<image path="components/images/no-user-photo-64.png" name="Icon" />
+		<image path="components/images/page-42.png" name="Icon" />
+		<image path="components/images/page-64.png" name="Icon" />
+		<image path="components/images/page-blog-postlist-64.png" name="Icon" />
+		<image path="components/images/page-calendar-64.png" name="Icon" />
+		<image path="components/images/page-data-lists-64.png" name="Icon" />
+		<image path="components/images/page-discussions-topiclist-64.png" name="Icon" />
+		<image path="components/images/page-documentlibrary-64.png" name="Icon" />
+		<image path="components/images/page-links-64.png" name="Icon" />
+		<image path="components/images/page-manual-64.png" name="Icon" />
+		<image path="components/images/page-wiki-page-64.png" name="Icon" />
+
+		<image path="components/images/task-16.png" name="Icon" />
+		<image path="components/images/task-64.png" name="Icon" />
+		<image path="components/images/topicpost-32.png" name="Icon" />
+		<image path="components/images/trash-48.png" name="Icon" />
+		<image path="components/images/trashcan-16.png" name="Icon" />
+		<image path="components/images/trashdark-48.png" name="Icon" />
+
+		<image path="components/images/vertical-green-arrow-large.png" name="Icon" />
+		<image path="components/images/vertical-green-arrow-small.png" name="Icon" />
+
+		<image path="components/images/workflow-16.png" name="Icon" />
+		<image path="components/images/workflow-20.png" name="Icon" />
+		<image path="components/images/alfresco-share-logo-enterprise.png" name="Icon" />
+		<image path="components/images/alfresco-share-logo-team.png" name="Icon" />
+		<image path="components/images/alfresco-share-logo.png" name="Icon" />
+
+	</actions>
+	<filetypes>
+		<image path="components/images/generic-file-16.png" name="Icon" />
+		<image path="components/images/generic-file-32.png" name="Icon" />
+		<image path="components/images/generic-file-48.png" name="Icon" />
+		<image path="components/images/generic-file.png" name="Icon" />
+		<image path="components/images/filetypes/generic-category-16.png" name="Icon" />
+		<image path="components/images/filetypes/generic-category-32.png" name="Icon" />
+		<!--
+			<image path="components/images/filetypes/generic-file-16.png" name="Icon" />
+			<image path="components/images/filetypes/generic-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/generic-file-48.png" name="Icon" />
+		-->
+		<image path="components/images/filetypes/generic-folder-16.png" name="Icon" />
+		<image path="components/images/filetypes/generic-folder-32.png" name="Icon" />
+		<image path="components/images/filetypes/generic-folder-48.png" name="Icon" />
+		<image path="components/images/filetypes/generic-group-16.png" name="Icon" />
+		<image path="components/images/filetypes/generic-group-32.png" name="Icon" />
+		<image path="components/images/filetypes/generic-server-16.png" name="Icon" />
+		<image path="components/images/filetypes/generic-server-32.png" name="Icon" />
+		<image path="components/images/filetypes/generic-server-group-16.png" name="Icon" />
+		<image path="components/images/filetypes/generic-server-group-32.png" name="Icon" />
+		<image path="components/images/filetypes/generic-site-16.png" name="Icon" />
+		<image path="components/images/filetypes/generic-site-32.png" name="Icon" />
+		<image path="components/images/filetypes/generic-tag-16.png" name="Icon" />
+		<image path="components/images/filetypes/generic-user-16.png" name="Icon" />
+		<image path="components/images/filetypes/generic-user-32.png" name="Icon" />
+
+		<image path="components/images/filetypes/xls-file-16.png" name="Icon" />
+		<image path="components/images/filetypes/xls-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/xls-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/xlsx-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/xlsx-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/doc-file-16.png" name="Icon" />
+		<image path="components/images/filetypes/doc-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/doc-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/docx-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/docx-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/ppj-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/ppj-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/ppt-file-16.png" name="Icon" />
+		<image path="components/images/filetypes/ppt-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/ppt-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/pptx-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/pptx-file-48.png" name="Icon" />
+
+		<image path="components/images/filetypes/odg-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/odg-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/odp-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/odp-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/ods-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/ods-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/odt-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/odt-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/pdf-file-16.png" name="Icon" />
+		<image path="components/images/filetypes/pdf-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/pdf-file-48.png" name="Icon" />
+
+		<image path="components/images/filetypes/htm-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/htm-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/html-file-16.png" name="Icon" />
+		<image path="components/images/filetypes/html-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/html-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/css-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/css-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/xml-file-16.png" name="Icon" />
+		<image path="components/images/filetypes/xml-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/xml-file-48.png" name="Icon" />
+
+		<!-- Images -->
+		<image path="components/images/filetypes/png-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/png-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/img-file-16.png" name="Icon" />
+		<!-- Duplicate look
+			<image path="components/images/filetypes/bmp-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/bmp-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/gif-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/gif-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/img-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/jpeg-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/jpeg-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/jpg-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/jpg-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/xbm-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/xbm-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/tif-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/tif-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/tiff-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/tiff-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/svg-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/svg-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/eps-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/eps-file-48.png" name="Icon" />
+		-->
+
+		<!-- Sound -->
+		<image path="components/images/filetypes/aep-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/aep-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/ai-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/ai-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/asnd-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/asnd-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/mp3-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/mp3-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/snd-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/snd-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/fla-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/fla-file-48.png" name="Icon" />
+		<!-- Duplicate look
+			<image path="components/images/filetypes/wma-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/wma-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/wav-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/wav-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/aiff-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/aiff-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/au-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/au-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/audio-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/spx-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/spx-file-48.png" name="Icon" />
+		-->
+		<!-- Video -->
+		<image path="components/images/filetypes/mp4-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/mp4-file-48.png" name="Icon" />
+		<!-- Duplicate look
+			<image path="components/images/filetypes/flv-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/flv-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/mov-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/mov-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/movie-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/movie-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/mpeg-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/mpeg-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/mpeg2-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/mpeg2-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/mpv2-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/mpv2-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/ogv-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/ogv-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/video-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/video-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/webm-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/webm-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/wmv-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/wmv-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/asf-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/asf-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/asx-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/asx-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/avi-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/avi-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/avx-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/avx-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/m4v-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/m4v-file-48.png" name="Icon" />
+			<image path="components/images/filetypes/qt-file-32.png" name="Icon" />
+			<image path="components/images/filetypes/qt-file-48.png" name="Icon" />
+		-->
+		<image path="components/images/filetypes/fxp-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/fxp-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/eml-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/eml-file-48.png" name="Icon" />
+
+		<image path="components/images/filetypes/indd-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/indd-file-48.png" name="Icon" />
+
+		<image path="components/images/filetypes/key-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/key-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/numbers-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/numbers-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/pages-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/pages-file-48.png" name="Icon" />
+
+
+
+		<image path="components/images/filetypes/psd-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/psd-file-48.png" name="Icon" />
+
+		<image path="components/images/filetypes/rtf-file-16.png" name="Icon" />
+		<image path="components/images/filetypes/rtf-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/rtf-file-48.png" name="Icon" />
+
+
+
+		<image path="components/images/filetypes/swf-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/swf-file-48.png" name="Icon" />
+		<image path="components/images/filetypes/text-file-16.png" name="Icon" />
+		<image path="components/images/filetypes/text-file-32.png" name="Icon" />
+
+		<image path="components/images/filetypes/txt-file-16.png" name="Icon" />
+		<image path="components/images/filetypes/txt-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/txt-file-48.png" name="Icon" />
+
+		<image path="components/images/filetypes/zip-file-32.png" name="Icon" />
+		<image path="components/images/filetypes/zip-file-48.png" name="Icon" />
+
+	</filetypes>
+</images>
