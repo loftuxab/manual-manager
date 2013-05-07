@@ -40,18 +40,4 @@ function setActionSet()
    model.actionSet = actionSet;
 }
 
-function widgets()
-{
-   var ManualManager = {
-      id : "ManualManager", 
-      name : "Loftux.ManualManager",
-      options : {
-         siteId : (page.url.templateArgs.site != null) ? page.url.templateArgs.site : ""
-      }
-   };
-   model.widgets = [ManualManager];
-}
-
-widgets();
-
 setActionSet();

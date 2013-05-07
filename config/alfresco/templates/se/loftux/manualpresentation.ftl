@@ -15,22 +15,22 @@
 
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-      <link rel="stylesheet" type="text/css" href="<@checksumResource src="${page.url.context}/res/loftux/components/reveal/css/reveal.min.css"/>" />
-      <link rel="stylesheet" type="text/css" href="<@checksumResource src="${page.url.context}/res/loftux/components/reveal/css/theme/default.css"/>" id="theme" />
+      <link rel="stylesheet" type="text/css" href="${page.url.context}/res/loftux/components/reveal/css/reveal.min.css" />
+      <link rel="stylesheet" type="text/css" href="${page.url.context}/res/loftux/components/reveal/css/theme/default.css" id="theme" />
 
       <!-- For syntax highlighting -->
-      <link rel="stylesheet" type="text/css" href="<@checksumResource src="${page.url.context}/res/loftux/components/reveal/lib/css/zenburn.css"/>" />
+      <link rel="stylesheet" type="text/css" href="${page.url.context}/res/loftux/components/reveal/lib/css/zenburn.css" />
 
       <!--[if lt IE 9]>
-      <script type="text/javascript" src="<@checksumResource src="${page.url.context}/res/loftux/components/reveal/lib/js/html5shiv.js"/>"></script>
+      <@script type="text/javascript" src="${page.url.context}/res/loftux/components/reveal/lib/js/html5shiv.js"></@script>
       <![endif]-->
    </head>
 
    <body>
 <@region id="reveal" chromeless="true" scope="template"/>
 
-      <script type="text/javascript" src="<@checksumResource src="${page.url.context}/res/loftux/components/reveal/lib/js/head.js"/>"></script>
-      <script type="text/javascript" src="<@checksumResource src="${page.url.context}/res/loftux/components/reveal/js/reveal.js"/>"></script>
+      <@script type="text/javascript" src="${page.url.context}/res/loftux/components/reveal/lib/js/head.js"></@script>
+      <@script type="text/javascript" src="${page.url.context}/res/loftux/components/reveal/js/reveal.js"></@script>
 
       <script>
 
@@ -47,12 +47,12 @@
 
             // Optional libraries used to extend on reveal.js
             dependencies: [
-               { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/lib/js/classList.js"/>', condition: function() { return !document.body.classList; } },
-               { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/plugin/markdown/showdown.js"/>', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-               { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/plugin/markdown/markdown.js"/>', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-               { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/plugin/highlight/highlight.js"/>', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-               { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/plugin/zoom-js/zoom.js"/>', async: true, condition: function() { return !!document.body.classList; } },
-               { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/plugin/notes/notes.js"/>', async: true, condition: function() { return !!document.body.classList; } }
+               { src: '${page.url.context}/res/loftux/components/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+               { src: '${page.url.context}/res/loftux/components/reveal/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+               { src: '${page.url.context}/res/loftux/components/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+               { src: '${page.url.context}/res/loftux/components/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+               { src: '${page.url.context}/res/loftux/components/reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+               { src: '${page.url.context}/res/loftux/components/reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
                // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
                // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
             ]

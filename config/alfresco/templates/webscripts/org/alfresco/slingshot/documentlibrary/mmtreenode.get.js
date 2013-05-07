@@ -43,8 +43,7 @@ function getTreeNode()
          items.push(
          {
             node: item,
-            hasSubfolders: hasSubfolders,
-            aspects: jsonUtils.toObject(appUtils.toJSON(item, true)).aspects
+            hasSubfolders: hasSubfolders
          });
       }
       
