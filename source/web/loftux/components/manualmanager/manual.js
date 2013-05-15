@@ -276,7 +276,7 @@
 					this.permissions = oRecord.getData("permissions");
 					var oMenu = this.widgets.manualActions.getMenu();
 
-					var menuitems = oMenu.getItems();
+					var menuitems = oMenu.getItems(), action, actionitem;
 					for ( var i = 0; i < menuitems.length; i++)
 					{
 						// Enable all to begin with
@@ -284,8 +284,18 @@
 						// var action =
 						// Dom.getAttribute(menuitems[i].cfg.config.text.value,
 						// 'class');
-						var action = menuitems[i].cfg.config.text.value.match(/"([^"]*)"/);
-						switch (action[1])
+						if(YAHOO.env.ua.ie > 0 && YAHOO.env.ua.ie < 9)
+                  {
+                     //Ie returns value without quotes
+                     action = menuitems[i].cfg.config.text.value
+                     actionitem = action.substring(action.indexOf('=')+1, action.indexOf('>'));
+
+                  }else
+                  {
+                     action = menuitems[i].cfg.config.text.value.match(/"(.*?)"/);
+                     actionitem = action[1];
+                  }
+                  switch (actionitem)
 						{
 
 						case "onActionEdit":
@@ -376,7 +386,11 @@
 							// Print permissions always available
 							break;
                   case "onActionPresentation":
-                     // Print permissions always available
+                     // Print permissions always available, unless ie <9
+                     if(YAHOO.env.ua.ie > 0 && YAHOO.env.ua.ie < 9)
+                     {
+                        menuitems[i].cfg.setProperty("disabled", true);
+                     }
                      break;
 						}
 					}
@@ -1197,7 +1211,12 @@
 						}
 					}
 
-					Dom.get(this.id + "-contentPath").innerHTML = pathHtml;
+					var contentPathDom = Dom.get(this.id + "-contentPath");
+               if(contentPathDom)
+               {
+                  contentPathDom.innerHTML = pathHtml;
+               }
+
 					// Make sure the search panel is hidden when changing
 					// path
 					if (this.widgets.search)
@@ -1207,7 +1226,11 @@
 					}
 					// Paginator, leaves empty spaces in innerhtml, remove
 					// them, else it occupy one row.
-					Dom.get(this.id + "-search-result-paginator").innerHTML = '';
+					var searchPaginatorDom = Dom.get(this.id + "-search-result-paginator");
+               if(searchPaginatorDom)
+               {
+                  searchPaginatorDom.innerHTML = '';
+               }
 
 					// Hide version panel if visible
 					Dom.setStyle(this.id + "-version-buttons", "visibility", "hidden");
