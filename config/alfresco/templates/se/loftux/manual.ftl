@@ -7,11 +7,12 @@
 </@>
 
 <@templateBody>
+   <@markup id="alf-hd">
    <div id="alf-hd">
-      <@region id="header" scope="global" />
-      <@region id="title" scope="template" />
-      <@region id="navigation" scope="template" />
+      <@region scope="global" id="share-header" chromeless="true"/>
    </div>
+   </@>
+   <@markup id="bd">
    <div id="bd">
       <div class="yui-t1" id="alfresco-wiki">
          <div id="yui-main">
@@ -24,7 +25,7 @@
          </div>
       </div>
    </div>
-      
+   </@>
       <@region id="html-upload" scope="template"/>
       <@region id="flash-upload" scope="template"/>
       <@region id="file-upload" scope="template"/>
@@ -32,7 +33,9 @@
 </@>
 
 <@templateFooter>
+   <@markup id="alf-ft">
    <div id="alf-ft">
       <@region id="footer" scope="global" />
    </div>
+   </@>
 </@>
