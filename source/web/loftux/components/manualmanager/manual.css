@@ -354,3 +354,9 @@ ul.sorttopicList {
 	opacity: 1;
 	filter: alpha(opacity =         100);
 }
+
+/* Overrides of styles that otherwise mess with formatting */
+.manual-manager-content .yui-dt-highlighted
+{
+   border-left: none !important;
+}

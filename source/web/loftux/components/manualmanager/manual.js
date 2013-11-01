@@ -143,6 +143,8 @@
 
 					// Create Markdown converter instance
 					this.widgets.Markdown = Markdown.getSanitizingConverter();
+               // Init the extra markdown syntax support
+               Markdown.Extra.init(this.widgets.Markdown);
 
 					var url = Alfresco.constants.PROXY_URI + "loftux/manual/site/" + this.options.siteId + "/manual";
 					this.widgets.pagingDataTable = new Alfresco.util.DataTable({

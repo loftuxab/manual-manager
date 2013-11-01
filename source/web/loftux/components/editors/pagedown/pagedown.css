@@ -133,6 +133,43 @@ body
 	padding: 0 !important;
 }
 
+.wmd-preview .footnote {
+    vertical-align: super;
+    font-size: 0.7em;
+}
+
+.wmd-preview table {
+    margin: 1em !important;
+    border-collapse: collapse !important;
+}
+
+.wmd-preview td,
+.wmd-preview th {
+    padding: .3em !important;
+    border: 1px #ccc solid !important;
+}
+
+.wmd-preview table {
+    width: auto !important;
+}
+
+.wmd-preview thead {
+    display: table-header-group !important;
+    background: #e5e5e5 !important;
+}
+
+.wmd-preview tbody {
+    background: #fff !important;
+}
+
+.wmd-preview tr:nth-child(odd) {
+    background-color: #e5e5e5 !important;
+}
+
+.wmd-preview tr:nth-child(even) {
+    background-color: #ffffff !important;
+}
+
 /* END styling of preview content */
 .wmd-button-row 
 {

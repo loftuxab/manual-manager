@@ -56,9 +56,8 @@
 		return this;
 	};
 
-	YAHOO.extend(Loftux.ManualManagerPrint, Alfresco.component.Base);
-
-	YAHOO.lang.augmentObject(Loftux.ManualManagerPrint.prototype, {
+	YAHOO.extend(Loftux.ManualManagerPrint, Alfresco.component.Base,
+    {
 		/**
 		 * Object container for initialization options
 		 * 
@@ -88,34 +87,40 @@
 		onReady : function ManualManagerPrint_onReady()
 		{
 
-			// Create Markdown converter instance
-			this.widgets.Markdown = Markdown.getSanitizingConverter();
+         // Create Markdown converter instance
+         this.widgets.Markdown = Markdown.getSanitizingConverter();
+         // Init the extra markdown syntax support
+         Markdown.Extra.init(this.widgets.Markdown);
 
-			var url = Alfresco.constants.PROXY_URI + 'loftux/manual/print?nodeRef='+this.options.nodeRef+'&recurse='+this.options.recurse;
-			this.widgets.pagingDataTable = new Alfresco.util.DataTable({
-				dataTable : {
-					container : this.id + "-content",
-					columnDefinitions : [ {
-						key : "nodeRef",
-						label : "",
-						sortable : false,
-						formatter : this.bind(this.renderContent)
-					} ],
-					config : {
-						MSG_EMPTY : this.msg("message.noTasks"),
-						responseType : YAHOO.util.DataSource.TYPE_JSARRAY,
-						responseSchema : {
-							resultsList : "data",
-							fields : [ "nodeRef", "content" ]
-						}
+         var url = Alfresco.constants.PROXY_URI + 'loftux/manual/print?nodeRef=' + this.options.nodeRef + '&recurse=' +
+            this.options.recurse;
+         this.widgets.pagingDataTable = new Alfresco.util.DataTable({
+            dataTable: {
+               container: this.id + "-content",
+               columnDefinitions: [
+                  {
+                     key: "nodeRef",
+                     label: "",
+                     sortable: false,
+                     formatter: this.bind(this.renderContent)
+                  }
+               ],
+               config: {
+                  MSG_EMPTY: this.msg("message.noTasks"),
+                  responseType: YAHOO.util.DataSource.TYPE_JSARRAY,
+                  responseSchema: {
+                     resultsList: "data",
+                     fields: [ "nodeRef", "content" ]
+                  }
 
-					}
-				},
-				dataSource : {
-					url : url
-				}
-			});
-		},
+               }
+            },
+            dataSource: {
+               url: url
+            }
+         });
+
+      },
 		renderContent : function ManualManagerPrint_renderContent(elCell, oRecord, oColumn, oData)
 		{
 

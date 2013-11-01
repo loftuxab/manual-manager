@@ -48,6 +48,7 @@ Once restarted, go to your site as Site Manager and select `Customise Site`. Add
 This add-on makes use of several external components  
 
 * [Pagedown](https://code.google.com/p/pagedown/) for online editor and html view rendering of markdown
+* [Pagedown Extra](https://github.com/jmcmanus/pagedown-extra) Markdown Extra Plugins for Pagedown
 * [reveal.js](https://github.com/hakimel/reveal.js/) by [Hakim](http://hakim.se) for creating online presentations
 * [Markdown](http://daringfireball.net/projects/markdown/) - the markdown syntax used.
 * [Alfresco](http://www.alfresco.com) - Not included here! -but you need install this add-on on top of Alfresco.  

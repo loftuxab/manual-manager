@@ -70,6 +70,7 @@
             <js src="/loftux/components/editors/pagedown/Markdown.Converter.js" />
             <js src="/loftux/components/editors/pagedown/Markdown.Sanitizer.js" />
             <js src="/loftux/components/editors/pagedown/Markdown.Editor.js" />
+            <js src="/loftux/components/editors/pagedown/Markdown.Extra.js" />
             <js src="/loftux/components/editors/pagedown/pagedown.js" />
             <css src="/loftux/components/editors/pagedown/pagedown.css" />
            </dependencies>

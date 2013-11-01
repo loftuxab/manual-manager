@@ -426,6 +426,8 @@
       _renderEditor: function PagedownContentControl_RenderEditor(){
          
             var converter = Markdown.getSanitizingConverter();
+            // Init the extra markdown syntax support
+            Markdown.Extra.init(converter);
             var editor = new Markdown.Editor(converter, this.id);
             editor.run();
             //Fires an event so that we can hook into custom pagedown events
