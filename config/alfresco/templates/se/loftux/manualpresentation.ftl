@@ -48,7 +48,7 @@
             // Optional libraries used to extend on reveal.js
             dependencies: [
                { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/lib/js/classList.js"/>', condition: function() { return !document.body.classList; } },
-               { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/plugin/markdown/showdown.js"/>', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+               { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/plugin/markdown/marked.js"/>', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/plugin/markdown/markdown.js"/>', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/plugin/highlight/highlight.js"/>', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                { src: '<@checksumResource src="${page.url.context}/res/loftux/components/reveal/plugin/zoom-js/zoom.js"/>', async: true, condition: function() { return !!document.body.classList; } },

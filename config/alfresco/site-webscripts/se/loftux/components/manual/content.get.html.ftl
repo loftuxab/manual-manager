@@ -38,7 +38,7 @@
 		        <div class="manual search-box">
 		         	<input id="${id}-searchText" type="text" maxlength="1024" />
 		      	</div>	
-		         <div class="selected-items">
+		         <div class="manualmenu selected-items">
 		            <button class="no-access-check" id="${id}-manual-actions-button" name="manual-actions-button">${msg("menu.manual-actions")}</button>
 		            <div id="${id}-manual-actions-menu" class="yuimenu">
 		               <div class="bd">
