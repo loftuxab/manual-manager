@@ -179,13 +179,14 @@
 /* Search box */
 div.manual.search-box {
 	border: 1px solid #a0a0a0;
+    border-radius: 16px;
 	float: right;
 	height: 20px;
 	position: relative;
 	top: -2px;
 	-moz-border-radius: 16px;
 	-webkit-border-radius: 16px;
-	margin-right: 80px;
+	margin-right: 85px;
 	margin-top: 4px;
 }
 
@@ -194,11 +195,12 @@ div.manual.search-box input[type="text"] {
 	background-color: transparent;
 	background: url(../../../components/images/header/search-menu.png) no-repeat 5px 0px;
 	display: inline-block;
-	margin-right: 6px;
+	margin-right: 8px;
 	padding: 0 0 0 30px;
 	position: relative;
 	top: -2px;
 	margin-top: 3px;
+    width: 10em;
 }
 
 div.manual.search-box input.faded {
