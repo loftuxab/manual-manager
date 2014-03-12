@@ -60,6 +60,10 @@ body
 }
 
 /* Start styling of preview content */
+.alfresco-share .sticky-wrapper .wmd-preview a,
+.wmd-preview a {
+    text-decoration: underline;
+}
 
 .alfresco-share .sticky-wrapper .wmd-preview ul li,
 .wmd-preview  ul li
