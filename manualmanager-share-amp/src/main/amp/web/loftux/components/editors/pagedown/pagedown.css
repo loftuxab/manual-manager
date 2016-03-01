@@ -1,0 +1,363 @@
+body 
+{ 
+	background-color: White;
+    font-family: sans-serif;
+}
+
+.wmd-panel
+{
+	margin-left: 1px;
+	margin-right: 1px;
+	width: 50%;
+}
+
+.wmd-button-bar 
+{
+	width: 100%;
+	background-color: Silver; 
+}
+
+.wmd-input 
+{ 
+	height: 300px;
+	width: 100%;
+	background-color: Gainsboro;
+	border: 1px solid DarkGray;
+}
+
+.wmd-images
+{
+	display: none;
+	width: 98%;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview,
+.wmd-preview
+{
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 5px;
+	width: 98%;
+}
+
+.alfresco-share .sticky-wrapper wmd-panel.wmd-preview,
+.wmd-panel.wmd-preview
+{
+	overflow: auto;
+	max-height: 500px;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview textarea,
+.wmd-panel textarea
+{
+	margin-top: 3px;
+	width: 200% !important;
+}
+
+.wmd-preview-label
+{
+	margin-bottom: 2em;
+}
+
+/* Start styling of preview content */
+.alfresco-share .sticky-wrapper .wmd-preview a,
+.wmd-preview a {
+    text-decoration: underline;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview ul li,
+.wmd-preview  ul li
+{
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview ul,
+.wmd-preview  ul {
+    padding: 1em 0em 0.5em 0em;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview ol,
+.wmd-preview  ol {
+    counter-reset:li; /* Initiate a counter */
+    margin-left:0; /* Remove the default left margin */
+    padding: 1em 0em 0.5em 0em;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview ol > li,
+.wmd-preview  ol > li {
+    position:relative; /* Create a positioning context */
+    margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:4px 8px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+    border-top:2px solid #666;
+    background:#f6f6f6;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview ol > li:before,
+.wmd-preview  ol > li:before {
+    content:counters(li, "."); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:2em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    border-top:2px solid #666;
+    color:#fff;
+    background:#666;
+    font-weight:bold;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview li ol,
+.alfresco-share .sticky-wrapper .wmd-preview li ul,
+.wmd-preview  li ol,
+.wmd-preview  li ul {
+    margin-top: 6px;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview ol ol li:last-child,
+.wmd-preview  ol ol li:last-child {
+    margin-bottom: 0;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview blockquote,
+.wmd-preview blockquote {
+	margin: 1em 3em;
+	padding: .5em 1em;
+	border-left: 5px solid #fce27c;
+	background-color: #f6ebc1;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview blockquote p,
+.wmd-preview blockquote p {
+	margin: 0;
+    padding: 0;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview p,
+.wmd-preview p {
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview hr,
+.wmd-preview hr {
+	height: 1px !important;
+	margin-top: 0.5em !important;
+	margin-bottom: 1em !important;
+	border: 0 !important;
+	width: 100% !important;
+	clear: both !important;
+	visibility: visible !important;
+	color: #9E9E9E !important;
+	background-color: #9E9E9E !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview img,
+.wmd-preview img {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview h1,
+.wmd-preview h1 {
+    margin-top: 0.67em !important;
+    margin-bottom: 0.2em !important;
+	padding: 0 !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview h2,
+.wmd-preview h2 {
+    margin-top: 0.67em !important;
+    margin-bottom: 0.2em !important;
+    padding: 0 !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview h3,
+.wmd-preview h3 {
+    margin-top: 0.67em !important;
+    margin-bottom: 0.2em !important;
+    padding: 0 !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview .footnote,
+.wmd-preview .footnote {
+    vertical-align: super;
+    font-size: 0.7em;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview table,
+.wmd-preview table {
+    margin: 1em !important;
+    border-collapse: collapse !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview td,
+.alfresco-share .sticky-wrapper .wmd-preview th,
+.wmd-preview td,
+.wmd-preview th {
+    padding: .3em !important;
+    border: 1px #ccc solid !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview table,
+.wmd-preview table {
+    width: auto !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview thead,
+.wmd-preview thead {
+    display: table-header-group !important;
+    background: #e5e5e5 !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview tbody,
+.wmd-preview tbody {
+    background: #fff !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview tr:nth-child(odd),
+.wmd-preview tr:nth-child(odd) {
+    background-color: #e5e5e5 !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview tr:nth-child(even),
+.wmd-preview tr:nth-child(even) {
+    background-color: #ffffff !important;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview code,
+.alfresco-share .sticky-wrapper .wmd-preview tt,
+.wmd-preview code,
+.wmd-preview tt {
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview pre>code,
+.wmd-preview pre>code {
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+    border: none;
+    background: transparent;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview pre code,
+.alfresco-share .sticky-wrapper .wmd-preview pre tt,
+.wmd-preview pre code,
+.wmd-preview pre tt {
+    background-color: transparent;
+    border: none;
+}
+
+.alfresco-share .sticky-wrapper .wmd-preview pre,
+.wmd-preview pre {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    line-height: 1.5em;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+
+/* END styling of preview content */
+.wmd-button-row 
+{
+	position: relative; 
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	padding: 0px;  
+	height: 20px;
+}
+
+.wmd-spacer
+{
+	width: 1px; 
+	height: 20px; 
+	margin-left: 14px;
+	
+	position: absolute;
+	background-color: Silver;
+	display: inline-block; 
+	list-style: none;
+}
+
+.wmd-button {
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+    padding-right: 3px;
+    position: absolute;
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+}
+
+.wmd-button > span {
+    background-image: url(images/wmd-buttons.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.wmd-spacer1
+{
+    left: 50px;
+}
+.wmd-spacer2
+{
+    left: 175px;
+}
+.wmd-spacer3
+{
+    left: 300px;
+}
+
+.wmd-prompt-background
+{
+	background-color: Black;
+}
+
+.wmd-prompt-dialog
+{
+	border: 1px solid #999999;
+	background-color: #F5F5F5;
+}
+
+.wmd-prompt-dialog > div {
+	font-size: 0.8em;
+	font-family: arial, helvetica, sans-serif;
+}
+
+
+.wmd-prompt-dialog > form > input[type="text"] {
+	border: 1px solid #999999;
+	color: black;
+}
+
+.wmd-prompt-dialog > form > input[type="button"]{
+	border: 1px solid #888888;
+	font-family: trebuchet MS, helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight: bold;
+}
