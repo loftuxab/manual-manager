@@ -1,3 +1,5 @@
+![](https://loftux.com/files/static/images/manual_manager_logo.png)
+
 #Manual Manager
 
 Manual Manager is an add-on for Alfresco Share that adds hierarchically  structured documents written using markdown syntax. The result is kind of a classic help file. Current features include: 
@@ -20,7 +22,7 @@ Manual Manager is an add-on for Alfresco Share that adds hierarchically  structu
 You can watch this introduction [video](http://www.youtube.com/watch?v=iTn-lJozYkM) to see it in action.
 
 ##Author
-Peter Löfgren Loftux AB [http://loftux.se](http://loftux.se) - [http://loftux.com](http://loftux.com) - [@loftux](https://twitter.com/loftux)
+Peter Löfgren [@loftux](https://twitter.com/loftux) - Loftux AB [http://loftux.se](http://loftux.se) - [http://loftux.com](http://loftux.com) - [@loftuxab](https://twitter.com/loftuxab) 
 
 ## Clone, build and install
 There are no official releases of Manual Manager. But the source is here, so you can just clone and build yourself.  
