@@ -49,5 +49,7 @@
         </property>
     </bean>
 
+    <bean id="unserializerValidatorBootstrap" class="java.lang.Object">
+    </bean>
 
 </beans>
