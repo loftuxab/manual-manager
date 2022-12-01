@@ -20,7 +20,7 @@
 
 <beans>
 
-    <import resource="classpath:alfresco/module/${project.artifactId}/context/service-context.xml" />
-	<import resource="classpath:alfresco/module/${project.artifactId}/context/webscript-context.xml" />
+    <import resource="classpath:alfresco/module/manualmanager-repo-amp/context/service-context.xml" />
+<!--	<import resource="classpath:alfresco/module/manualmanager-repo-amp/context/webscript-context.xml" />-->
 
 </beans>

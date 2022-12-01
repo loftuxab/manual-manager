@@ -1,0 +1,60 @@
+plugins {
+    id 'eu.xenit.alfresco' version '1.1.0'
+    id 'eu.xenit.amp'  version '1.1.0'
+    id 'maven-publish'
+    id 'java'
+}
+
+version = "1.2.0"
+
+sourceSets {
+    main {
+        amp {
+            module {
+                it.setProperty("module.id", "manualmanager-repo-amp")
+                it.setProperty("module.version", project.version)
+                it.setProperty("module.title", "Loftux Manual Manager - Repository Module")
+                it.setProperty("module.description", "Loftux Manual Manager Repository module for Alfresco Repository")
+            }
+            config.srcDirs = [file('manualmanager-repo-amp/src/main/amp/config')]
+        }
+    }
+    share {
+        amp {
+            module {
+                it.setProperty("module.id", "manualmanager-share-amp")
+                it.setProperty("module.version", project.version)
+                it.setProperty("module.title", "Loftux Manual Manager - Share Module")
+                it.setProperty("module.description", "Loftux Manual Manager Share module for Alfresco Share")
+            }
+
+            fileMapping("manualmanager-share-amp/src/main/amp/file-mapping.properties")
+            config.srcDirs = [file('manualmanager-share-amp/src/main/amp/config')]
+            web.srcDirs = [file('manualmanager-share-amp/src/main/amp/web')]
+        }
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId 'se.loftux.modules.manualmanager'
+            artifact tasks.amp
+        }
+        maven(MavenPublication) {
+            groupId 'se.loftux.modules.manualmanager'
+            artifact tasks.shareAmp
+        }
+    }
+
+    repositories {
+        maven {
+            url System.getenv("LOFTUX_NEXUS_DEPLOYMENT_URL")
+            name "LoftuxExtension"
+            credentials {
+                username System.getenv("LOFTUX_NEXUS_DEPLOYMENT_USERNAME")
+                password System.getenv("LOFTUX_NEXUS_DEPLOYMENT_PASSWORD")
+            }
+        }
+    }
+}
