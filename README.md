@@ -58,7 +58,7 @@ This add-on makes use of several external components
 Some third party components in itself use other third party components. Check their respective site for details.
 
 # LICENSE
-Copyright (C) 2012-2013 Loftux AB
+Copyright (C) 2012-2022 Loftux AB
 
 Manual Manager is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
